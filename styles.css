@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;   
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    align-items: center;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    position: fixed;
+    width: 100vw;
+}
+
+.barName {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.navItems {
+    font-size: 1.7rem;
+    margin: 1rem;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    font-weight: bold;
+    padding: 1rem 2rem;
+    
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+/* Home */
+
+#home {
+    align-items: center;
+    background-color: #F0F0F0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}  
+
+.welcome {
+    font-size: 5rem;
+}
+
+.name {
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.info {
+    font-size: 2rem;
+}
